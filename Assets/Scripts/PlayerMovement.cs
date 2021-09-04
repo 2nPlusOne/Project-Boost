@@ -1,22 +1,22 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] float thrustForce = 1000f;
     [SerializeField] float rotationSpeed = 100f;
+    [SerializeField] float thrustVolume = 0.5f;
+    [SerializeField] float volumeFadeSpeed = 0.1f;
+    
+    AudioSource thrustAudio;
     
     Rigidbody rb;
 
-    // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponentInChildren<Rigidbody>();
+        thrustAudio = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ProcessThrust();
@@ -28,7 +28,21 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             rb.AddRelativeForce(Vector3.up * thrustForce * Time.deltaTime);
+
+            thrustAudio.volume = thrustVolume;
+            if (!thrustAudio.isPlaying)
+                thrustAudio.Play();
         }
+        else if (thrustAudio.isPlaying && thrustAudio.volume > 0)
+            AudioFade(thrustAudio, volumeFadeSpeed);
+    }
+
+    private void AudioFade(AudioSource source, float fadeSpeed)
+    {
+        if (source.volume > 0)
+            source.volume = source.volume - fadeSpeed;
+        else 
+            source.Stop();
     }
 
     private void ProcessRotation()
