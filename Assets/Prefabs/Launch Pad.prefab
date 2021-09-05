@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4392544421125474263}
   - component: {fileID: 224938609725353399}
   m_Layer: 0
-  m_Name: Start
-  m_TagString: Untagged
+  m_Name: Launch Pad
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 53bdfd8aa85c85f4783ffcadf4c03485, type: 2}
+  - {fileID: 2100000, guid: 80d40115355b395469a81511f864f025, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
