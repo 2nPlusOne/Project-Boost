@@ -2,19 +2,22 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // PARAMETERS
     [SerializeField] float thrustForce = 1000f;
     [SerializeField] float rotationSpeed = 100f;
     [SerializeField] float AudioVolume = 0.5f;
     [SerializeField] float volumeFadeSpeed = 0.1f;
 
+    // AUDIO CLIPS
     [SerializeField] AudioClip engineSound;
     
+    // PARTICLES
     [SerializeField] ParticleSystem mainThrusterParticles;
     [SerializeField] ParticleSystem leftThrusterParticles;
     [SerializeField] ParticleSystem rightThrusterParticles;
 
+    // CACHED REFERENCES
     AudioSource audioSource;
-    
     Rigidbody rb;
 
     void Start()

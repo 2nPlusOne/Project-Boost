@@ -14,7 +14,7 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] ParticleSystem explosionParticles;
     [SerializeField] ParticleSystem successParticles;
 
-    // CACHE REFERENCES
+    // CACHED REFERENCES
     AudioSource audioSource;
     PlayerMovement pMovement;
 

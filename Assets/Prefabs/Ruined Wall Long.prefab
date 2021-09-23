@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 3192022429938164517}
   - component: {fileID: 3192022429938164518}
   m_Layer: 0
-  m_Name: Ruined Wall
+  m_Name: Ruined Wall Long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3192022429938164539
 Transform:
@@ -169,6 +169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -246,6 +250,10 @@ PrefabInstance:
     - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Name
       value: Terrain Obstacle (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -325,6 +333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -402,6 +414,10 @@ PrefabInstance:
     - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Name
       value: Terrain Obstacle (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -481,6 +497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -559,6 +579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -636,6 +660,10 @@ PrefabInstance:
     - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Name
       value: Terrain Obstacle (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]

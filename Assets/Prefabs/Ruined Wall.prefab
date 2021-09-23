@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 6103283366354731703}
   - component: {fileID: 6103283366354731700}
   m_Layer: 0
-  m_Name: Terrain Obstacle (11)
+  m_Name: Ruined Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6103283366354731689
 Transform:
@@ -166,6 +166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -243,6 +247,10 @@ PrefabInstance:
     - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Name
       value: Terrain Obstacle (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -322,6 +330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Obstacle (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -399,6 +411,10 @@ PrefabInstance:
     - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Name
       value: Terrain Obstacle (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503229912645635032, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1503229912645635034, guid: 7699da9c3eeb36b498bb59f5c7eca953, type: 3}
       propertyPath: m_Materials.Array.data[0]
